@@ -16,12 +16,12 @@ header{
 }
 .nav-link:hover{
     letter-spacing: 3px;
-    background-color: #F9CA46;
+    background-color: #0275d8;
 }
 .resumeButton {
     padding: 5px 20px;
     border-radius: 15px;
-    background-color: #F9CA46; 
+    background-color: #0275d8; 
     transition: 0.5s;  
 }
 .service{
