@@ -1,331 +1,274 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-behavior: smooth;">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaun Sebastian</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" href="Resources/images/1624730439292.png" type="image/icon type">
-    <link rel="ico" href="">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/40ca60b5d8.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="script.js"></script>
-
-</head>
-
-<body>
-    <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-            <a href="#home-section" class="navbar-brand" style="padding-left: 2em;">
-                <h3>Shaun.</h3>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="Resume Website" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="Shaun Sebastian" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Shaun Sebastian</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Shaun Sebastian</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
             </a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" style="border: none;">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarMenu">
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item">
-                        <a href="#home-section" class="nav-link" id="home"><i style="margin-right: 5px;"
-                                class="fas fa-home"></i>Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#skills-section" class="nav-link"><i style="margin-right: 5px;"
-                                class="fas fa-tools"></i>Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact-section" class="nav-link"><i style="margin-right: 5px;"
-                                class="far fa-id-card"></i>Contact</a>
-                    </li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="doc/Resume_Shaun Sebastian.pdf">Download Resume</a></li>
                 </ul>
             </div>
-            <a style="text-decoration: none; color: #0b66c3;margin-right: 1em; "
-                href="https://www.linkedin.com/in/shaunseba/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </nav>
-    </header>
-
-    <a class="gototop" href="#"><i class="fas fa-arrow-up"></i></a>
-
-    <section id="home-section" class="pt-5">
-        <div class="container">
-            <div class="row align-items-center pt-5">
-                <div class="col-md-6 pl-5">
-                    <h5>Hello, here...</h5>
-                    <h1>Shaun Sebastian</h1>
-                    <h4>I am Computer Engineer</h4>
-                    <br>
-                    <a href="Resources/Resume_Shaun Sebastian.pdf"
-                        style="text-decoration: none; color: rgb(255, 255, 255); font-weight: bold;" class="resumeButton"
-                        download="">Get Resume</a><br>
-                </div>
-                <div class="col-md-6 ">
-                    <img src="" alt="" class="img-fluid propic1">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="skills-section pt-5" id="skills-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 col-sm-12 col-12">
-                    <img src="Resources/images/skills.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-6 col-sm-12 col-12 pt-5">
-                    <div class="row">
-                        <div class="col-md-12 text-primary border-bottom">
-                            <h4>My Skills</h4>
-                        </div>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Shaun
+                        <span class="text-primary">Sebastian</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Kerala · +91 8157833203 ·
+                        <a href="mailto:shaunsebastian4@gmail.com">shaunsebastian4@gmail.com</a>
                     </div>
-                    <div class="row p-3">
-
-                        <div style="position: relative;" class="col-md-4 col-sm-6 col-6 p-5 skill">
-                            <img id="img1" src="Resources/images/Python.jpg" alt="" class="img-fluid">
-                            <div class="row pt-2" id="img1-pop" style="display: none;">
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                        </div>
-
-                        <div style="position: relative;" class="col-md-4 col-sm-6 col-6 p-5 skill">
-                            <img id="img2" src="Resources/images/C.jpg" alt="" class="img-fluid">
-                            <div class="row pt-2" id="img2-pop" style="display: none;">
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                        </div>
-
-                        <div style="position: relative;" class="col-md-4 col-sm-6 col-6 p-5 skill">
-                            <img id="img3" src="Resources/images/Java.jpg" alt="" class="img-fluid">
-                            <div class="row pt-2" id="img3-pop" style="display: none;">
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                        </div>
-
-                        <div style="position: relative;" class="col-md-4 col-sm-6 col-6 p-5 skill">
-                            <img id="img4" src="Resources/images/html.jpg" alt="" class="img-fluid">
-                            <div class="row pt-2" id="img4-pop" style="display: none;">
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                        </div>
-
-                        <div style="position: relative;" class="col-md-4 col-sm-6 col-6 p-5  skill">
-                            <img id="img5" src="Resources/images/CSS.jpg" alt="" class="img-fluid">
-                            <div class="row pt-2" id="img5-pop" style="display: none;">
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                        </div>
-
-                        <div style="position: relative;" class="col-md-4 col-sm-6 col-6 p-5 skill">
-                            <img id="img6" src="Resources/images/Javascript.jpg" alt="" class="img-fluid">
-                            <div class="row pt-2" id="img6-pop" style="display: none;">
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                        </div>
-
-                        <div style="position: relative;" class="col-md-4 col-sm-6 col-6 p-5 skill">
-                            <img id="img7" src="Resources/images/npm.png" alt="" class="img-fluid">
-                            <div class="row pt-2" id="img7-pop" style="display: none;">
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                        </div>
-
-                        <div style="position: relative;" style="position: relative;"
-                            class="col-md-4 col-sm-6 col-6 p-5 skill">
-                            <img id="img8" src="Resources/images/angular.png" alt="" class="img-fluid">
-                            <div class="row pt-2" id="img8-pop" style="display: none;">
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                        </div>
-
-                        <div style="position: relative;" class="col-md-4 col-sm-6 col-6 p-5 skill">
-                            <img id="img9" src="Resources/images/Github.jpg" alt="" class="img-fluid">
-                            <div class="row pt-2" id="img9-pop" style="display: none;">
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i style="color: #412fe6;" class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-  
-
-    <section id="contact-section" class="pt-5">
-        <div class="container">
-            <div class="row pt-5">
-                <div class="col-md-12 text-center text-primary border-bottom">
-                    <h4>Contact</h4>
-                </div>
-            </div>
-            <div class="row pt-5">
-                <div class="col-md-6 p-5">
-                    <div class="row">
-                        <div class="col-md-1">
-                            <i class="fas fa-map-marked"></i>
-                        </div>
-                        <div class="col-md-10 font-weight-normal ">
-                            <p><u>Address:</u></p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1"></div>
-                        <div class="col-md-10 font-weight-normal ">
-                            <p>Kanjirappally, <br>Kottayam <br>Kerala, India</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1">
-                            <i class="fas fa-at"></i>
-                        </div>
-                        <div class="col-md-10 font-weight-normal ">
-                            <p><u>Email:</u></p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1"></div>
-                        <div class="col-md-10 font-weight-normal ">
-                            <a href="#">shaunsebastian4@gmail.com</a><br><br>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1">
-                            <i class="fas fa-phone-alt"></i>
-                        </div>
-                        <div class="col-md-10 font-weight-normal ">
-                            <p><u>Phone:</u></p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1"></div>
-                        <div class="col-md-10 font-weight-normal ">
-                            <p>+91 8157833203</p>
-                        </div>
+                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Active approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    <h4>Social Media</h4>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/shaunseba"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://twitter.com/shaun_seba"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="https://www.facebook.com/shaunseba"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href="https://www.instagram.com/shaunsebastian_"><i class="fab fa-instagram"></i></a>
+                        
                     </div>
                     <br>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p style="font-size: 1.25em;font-weight: bold;">Do Follow</p>
+                    <h4>Source Code</h4>
+                        <div class="social-icons">
+                            <a class="social-icon" href="https://github.com/shaunsebastian"><i class="fab fa-github"></i></a>
+                            <a class="social-icon" href="https://gitlab.com/shaunsebastian"><i class="fab fa-gitlab"></i></a>
+                            <a class="social-icon" href="https://bitbucket.org/shaunsebastian/"><i class="fab fa-bitbucket"></i></a>
+                            <a class="social-icon" href="https://stackoverflow.com/story/shaunseba"><i class="fab fa-stack-overflow"></i></a>
                         </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0"> TechBorg</h3>
+                            <div class="subheading mb-3"></div>
+                            <p>Working as Content Writing and Maintaining  at TechBorg Project</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2018-2021</span></div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-2 col-3" id="facebook">
-                            <a href="https://www.facebook.com/shaunseba" target="_blank"><i
-                                    class="fab fa-facebook-square fa-4x" style="color: #1878f3;"></i></a>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Freelance Projects</h3>
+                            <div class="subheading mb-3"></div>
+                            <p>Worked Few Freelance Projects</p>
                         </div>
-                        <div class="col-md-2 col-3" id="instagram">
-                            <a href="https://www.instagram.com/shaunsebastian_/" target="_blank"><img
-                                    src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png"
-                                    alt="instagram logo" style="height: 4em;"></a>
-                        </div>
-                        <div class="col-md-2 col-3" id="twitter">
-                            <a href="https://twitter.com/shaun_seba" target="_blank"><i class="fab fa-twitter-square fa-4x"
-                                    style="color: #1da1f3;"></i></a>
-                        </div>
-                        <div class="col-md-2 col-3" id="github">
-                            <a href="https://github.com/shaunsebastian" target="_blank"><i class="fab fa-github-square fa-4x"
-                                    style="color: rgba(34,34,34,255);"></i></a>
-                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2020</span></div>
                     </div>
                 </div>
-                <div class="col-md-6 p-5 form-section ">
-                    <p class="font-weight-bold text-primary">Get in touch.</p>
-                    <p class="font-weight-bold" style="font-size: 1.5em;">If you've got a project in mind,why not get in
-                        touch. Let's work together.</p>
-                    <p>I'm available for interesting work or projects. Big or Small. You can contact me using the form
-                        below, or by emailing.</p><br>
-
-                    <form action="" name="contact-form" id="submit-form">
-                        <input type="text" name="name" id="name" placeholder="Your Full Name"
-                            style="padding-left: 20px;"><br><br>
-                        <input type="email" name="email" id="email" placeholder="Your Email Address"
-                            style="padding-left: 20px;"><br><br>
-                        <input type="tel" name="mobile" id="mobile" placeholder="Mobile Number"
-                            style="padding-left: 20px;"><br><br>
-                        <textarea name="message" id="message" cols="30" rows="5" placeholder="Your Message"
-                            style="padding-left: 20px;"></textarea><br><br>
-                        <input type="submit" value="SEND MESSAGE" class="submitbutton text-white" id="submitbutton"><br>
-                    </form>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Government Polytechnic College</h3>
+                            <div class="subheading mb-3">Diploma in Computer Engineering</div>
+                            <div>Computer Engineering - Software Engineering Track</div>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2017 - 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Technical HSS Kuttikanam</h3>
+                            <div class="subheading mb-3">Technical High School Leaving Certificate</div>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2015</span></div>
+                    </div>
                 </div>
-            </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+			            <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+			            <li class="list-inline-item"><i class="fab fa-php"></i></li>
+			            <li class="list-inline-item"><i class="fab fa-android"></i></li>
+		            	<li class="list-inline-item"><i class="fab fa-java"></i></li>
+			            <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+			            <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-github"></i></li>
+			
+            
+                        
+
+
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Responsive Design
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Browser Testing & Debugging
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from being a computer engineer, I enjoy most of my time being with my computer.</p>
+                    <p>I follow a number of sci-fi and fantasy genre movies and I spend a large amount of my free time exploring the latest technology advancements in the Programming world.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - Swastika `15 Inter College Techno Cultural Fest - Scien EX 2015
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Participation - Swastika `15 Inter College Techno Cultural Fest - Scien EX 2015
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Industrial Visit in PHP - Logic Software Solutions (P) Ltd, Kottayam
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Computer Hardware - G-TEC Certification 
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Portfolio -->
+            <section class="resume-section" id="portfolio">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Portfolio</h2>
+                    <div class="list-inline dev-icons"></div>
+                    <h3>College Projects</h3>
+                    <br>
+                        <h4>Mini Project</h4>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-star"></i></span>
+                            Library Management System                       
+                            <a class="list-inline-item" href="https://github.com/shaunsebastian/Library-Management-System"><i class="fab fa-github"></i></a>
+                         </li>
+                         <br>
+                        <h4>Main Project</h4>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-star"></i></span>
+                            PocketBook
+                            <a class="list-inline-item" href="https://github.com/shaunsebastian/Android-PocketBook"><i class="fab fa-github"></i></a>
+                        </li>
+                        <br>
+                    <h3>Freelance Projects</h3>
+                    <br>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-star"></i></span>
+                            Vomail
+                            <a class="list-inline-item" href="https://github.com/shaunsebastian/Android-Vomail"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-star"></i></span>
+                            Arduino - Air Pollution Monitor System
+                            <a class="list-inline-item" href="https://github.com/shaunsebastian/Arduino-Airmonitor"><i class="fab fa-github"></i></a>
+                    </li>
+                    <br>
+                    <h3>Private Projects</h3>
+                    <br>
+                        <h4>TechBorg</h4>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-star"></i></span>
+                            TechBorg Tutorial                                               
+                            <a class="list-inline-item" href="https://github.com/techborg/TechBorg-Tutorial"><i class="fab fa-github"></i></a>
+                            <a class="list-inline-item" href="https://play.google.com/store/apps/details?id=com.techborg.techborgtutorial"><i class="fab fa-google-play"></i></a>
+                         </li>
+                         <br>
+                         <h4>Android Applications</h4>
+                         <li>
+                            <span class="fa-li"><i class="fas fa-star"></i></span>
+                            Torcho - LED Flashlight                                               
+                            <a class="list-inline-item" href="https://github.com/techborg/Torcho-LEDFlashlight"><i class="fab fa-github"></i></a>
+                            <a class="list-inline-item" href="https://play.google.com/store/apps/details?id=com.techborg.torcho"><i class="fab fa-google-play"></i></a>
+                         </li>
+                         <li>
+                            <span class="fa-li"><i class="fas fa-star"></i></span>
+                            QScanner - QR Code & Barcode Scanner                                               
+                            <a class="list-inline-item" href="https://github.com/techborg/QScanner-QRBarcodeScanner"><i class="fab fa-github"></i></a>
+                            <a class="list-inline-item" href="https://play.google.com/store/apps/details?id=com.techborg.qscanner"><i class="fab fa-google-play"></i></a>
+                         </li>
+                         <li>
+                            <span class="fa-li"><i class="fas fa-star"></i></span>
+                            Speeduo - One-tap Internet Speed Test                                               
+                            <a class="list-inline-item" href="https://github.com/techborg/Speeduo-OnetapInternetSpeedTest"><i class="fab fa-github"></i></a>
+                            <a class="list-inline-item" href="https://play.google.com/store/apps/details?id=com.app.speeduo"><i class="fab fa-google-play"></i></a>
+                         </li>
+                        </div>     
+                </div>
+            </section>
+            <hr class="m-0" />
         </div>
-    </section>
-
-
-    <br>
-    <br>
-
-    <footer class="bg-light border-top">
-        <div class="container">
-            <div class="row pt-2">
-                <div class="col-md-6 col-6">
-                    <a href="#home-section" class="footer-menu p-1">Home</a>
-                    <a href="#skills-section" class="footer-menu p-1">Skills</a>
-                    <a href="#contact-section" class="footer-menu p-1">Contact</a>
-                </div>
-                <div class="col-md-6 col-6 text-right">
-                    <p style="color: rgb(68, 73, 75); font-size: 0.95em;"><i>All rights reserved. Powered by <span
-                                style="font-weight: bold;color: rgb(68, 73, 75);">Github.io</span></i></p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
-
-
-
-
-
-</body>
-
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
